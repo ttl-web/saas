@@ -508,6 +508,22 @@ textarea.input {
   font-size: 20px;
   line-height: 150%;
   color: #696871;
+  font-family: "Mulish";
+}
+
+.link {
+  color: #5454d4;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 129.4117647059%;
+  transition: all 0.3s;
+  padding-bottom: 3px;
+}
+.link:hover {
+  color: #4141d6;
+  border-bottom: 1px solid #4141d6;
+  display: inline-block;
+  transform: translateX(1px);
 }
 
 .arrow-down img {
@@ -1076,4 +1092,62 @@ body.ie ._ibg img {
 
 .page {
   flex: 1 1 auto;
+}
+
+.logos {
+  padding: 100px 0 0 0;
+}
+.logos__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 767.98px) {
+  .logos__container {
+    justify-content: space-between;
+    padding: 50px 0 0 0;
+  }
+}
+@media (max-width: 479.98px) {
+  .logos__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .logos__logo {
+    margin: 20px 30px 0 20px;
+  }
+}
+@media (max-width: 479.98px) {
+  .logos__logo {
+    margin: 0 0 50px 0;
+    flex-basis: 100%;
+  }
+}
+@media (min-width: 665px) and (max-width: 766px) {
+  .logos__logo:last-child {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+
+.sub {
+  padding: 150px 0 0 0;
+}
+.sub__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub__info {
+  padding: 0 0 0 180px;
+}
+.sub__title {
+  font-size: 50px;
+  margin: 0 0 30px 0;
+}
+.sub__text {
+  margin: 0 0 30px 0;
 }
