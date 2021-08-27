@@ -1226,3 +1226,42 @@ body.ie ._ibg img {
     margin: 50px 0 0 0;
   }
 }
+
+.row__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 150px 0 0 0;
+}
+@media (max-width: 991px) {
+  .row__container {
+    padding: 120px 0 0 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .row__container {
+    padding: 50px 0 0 0;
+  }
+}
+@media (max-width: 599px) {
+  .row__container {
+    justify-content: center;
+  }
+}
+.row__item {
+  max-width: 300px;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .row__item {
+    margin: 30px 0 0 0;
+  }
+}
+.row__img {
+  margin: 0 0 7px 0;
+}
+.row__subtitle {
+  font-size: 24px;
+  line-height: 150%;
+  margin: 0 0 20px 0;
+}
